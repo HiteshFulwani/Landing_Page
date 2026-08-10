@@ -3,19 +3,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.first-section,
+#first-section,
 .nav-bar,
 .nav-links,
 .main-text,
 .main-stuff,
-.second-section,
+#second-section,
 .images,
-.image {
+.image,
+#third-section {
     display: flex;
 }
 
 
-.first-section {
+#first-section {
     background-color: #1F2937;
 
     color: white;
@@ -70,7 +71,8 @@ ul {
 .Header,
 .main-title,
 button,
-.bold-info {
+.bold-info,
+#quotee {
     font-weight: 900;
 }
 
@@ -80,7 +82,8 @@ button {
     color: #F9FAF8;
 }
 
-.Header {
+.Header,
+#quotee {
     font-size: 24px;
 }
 
@@ -111,7 +114,7 @@ p {
     margin: 0;
 }
 
-.second-section {
+#second-section {
 
     flex-direction: column;
     align-items: center;
@@ -141,4 +144,19 @@ p {
     min-height: 200px;
     max-height: 250px;
     border-radius: 8px;
+}
+
+#third-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 150px 470px 100px 470px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
 }
