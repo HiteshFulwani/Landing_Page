@@ -57,8 +57,14 @@ ul {
 
 .Header,
 .main-title,
-button {
+button,
+.bold-info {
     font-weight: 900;
+}
+
+.Header,
+.main-title,
+button {
     color: #F9FAF8;
 }
 
@@ -87,4 +93,12 @@ button {
 
 p {
     margin: 0;
+}
+
+.second-section {
+    display: flex;
+}
+
+.bold-info {
+    font-size: 30px;
 }
