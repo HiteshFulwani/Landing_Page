@@ -11,15 +11,16 @@ body {
 #second-section,
 .images,
 .image,
-#third-section {
+#third-section,
+#call-of-action,
+#fourth-section,
+#bold-normal {
     display: flex;
 }
 
 
 #first-section {
     background-color: #1F2937;
-
-    color: white;
     flex-direction: column;
     padding: 8px 350px 150px 350px;
     gap: 90px;
@@ -72,7 +73,9 @@ ul {
 .main-title,
 #sign-up-1,
 .bold-info,
-#quotee {
+#quotee,
+#bold-action,
+#sign-up-2 {
     font-weight: 900;
 }
 
@@ -83,7 +86,8 @@ ul {
 }
 
 .Header,
-#quotee {
+#quotee,
+#bold-action {
     font-size: 24px;
 }
 
@@ -92,7 +96,8 @@ ul {
 }
 
 .subtext,
-.image {
+.image,
+#normal-action {
     font-size: 18px;
 }
 
@@ -102,12 +107,23 @@ ul {
 
 #sign-up-1 {
     background-color: #3882F6;
-    color: white;
-    border-radius: 5px;
-    padding: 8px 28px;
-    font-size: 18px;
     border: none;
+    padding: 8px 28px;
 
+}
+
+#sign-up-2,
+#sign-up-1 {
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+
+#call-of-action,
+#sign-up-1,
+#first-section,
+#sign-up-2 {
+    color: white;
 }
 
 p {
@@ -159,4 +175,30 @@ p {
 #quote {
     font-size: 36px;
     font-style: italic;
+}
+
+#fourth-section {
+    padding: 100px 280px;
+    justify-content: center;
+    align-items: center;
+}
+
+#call-of-action {
+    background-color: #3882F6;
+    padding: 56px 210px 56px 150px;
+    flex-grow: 1;
+    border-radius: 8px;
+    justify-content: space-between;
+
+}
+
+#sign-up-2 {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 8px 40px;
+}
+
+#bold-normal {
+    flex-direction: column;
+    gap: 8px;
 }
