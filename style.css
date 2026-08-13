@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#first-section,
+header,
 .nav-bar,
 .nav-links,
 .main-text,
@@ -15,20 +15,20 @@ body {
 #call-of-action,
 #fourth-section,
 #bold-normal,
-#footer {
+footer {
     display: flex;
 }
 
 
-#first-section {
+header {
     flex-direction: column;
-    padding: 8px 350px 150px 350px;
+    padding: 1% 18% 10% 18%;
     gap: 90px;
 
 }
 
-#first-section,
-#footer {
+header,
+footer {
     background-color: #1F2937;
 
 }
@@ -127,9 +127,10 @@ ul {
 
 #call-of-action,
 #sign-up-1,
-#first-section,
+header,
 #sign-up-2,
-#footer {
+footer,
+a {
     color: white;
 }
 
@@ -141,8 +142,8 @@ p {
 
     flex-direction: column;
     align-items: center;
-    gap: 30px;
-    margin: 30px 300px 60px 300px;
+    gap: 3%;
+    margin: 1% 19% 5% 19%;
 }
 
 .bold-info {
@@ -173,10 +174,11 @@ p {
     background-color: #E5E7EB;
     color: #1F2937;
     font-weight: 300;
-    padding: 150px 470px 100px 470px;
+    padding: 7% 26% 6% 26%;
     flex-direction: column;
     gap: 10px;
     align-items: flex-end;
+    margin: 0;
 }
 
 #quote {
@@ -185,17 +187,18 @@ p {
 }
 
 #fourth-section {
-    padding: 100px 280px;
+    padding: 6% 19%;
     justify-content: center;
     align-items: center;
 }
 
 #call-of-action {
     background-color: #3882F6;
-    padding: 56px 210px 56px 150px;
+    padding: 5% 17% 5% 14%;
     flex-grow: 1;
     border-radius: 8px;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -210,9 +213,13 @@ p {
     gap: 8px;
 }
 
-#footer {
+footer {
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
 
+}
+
+a {
+    text-decoration: none;
 }
